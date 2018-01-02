@@ -1,7 +1,8 @@
 <suite name="Suite">
-  <test name="Test">
+  <test name="Win10GoogleChrome">
+  	<parameter name="browser" value="chrome" />
   	<packages>
-  		<package name="billing" />
+  		<package name="smoketest" />
   	</packages>
   </test>
 </suite>
